@@ -95,11 +95,8 @@ export function UtilityDashboard() {
 
   return (
     <div className="container mx-auto p-6 max-w-7xl">
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold text-foreground mb-2">SUSE Linux SAP HANA Utilities</h1>
-        <p className="text-muted-foreground">
-          Comprehensive command generation toolkit for SAP HANA Business One environment management
-        </p>
+      <div className="mb-8 text-center">
+        <h1 className="text-3xl font-bold text-foreground mb-2">Hana Montana</h1>
       </div>
 
       <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
